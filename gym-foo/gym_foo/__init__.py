@@ -1,7 +1,8 @@
 import gym
 from gym.envs.registration import register
 
+
 register(
-    id='foo-v0',
+    id='gym_foo-v0',
     entry_point='gym_foo.envs:FooEnv',
 )
